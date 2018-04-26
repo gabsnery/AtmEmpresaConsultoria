@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#ffffff"
     tools:background="?attr/colorBackgroundFloating"
     tools:context=".MainActivity">
 
@@ -12,7 +13,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="34dp"
-        android:contentDescription="TODO"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
@@ -23,7 +23,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:contentDescription="TODO"
         app:layout_constraintStart_toStartOf="@+id/imageViewLogo"
         app:layout_constraintTop_toBottomOf="@+id/imageViewLogo"
         app:srcCompat="@drawable/menu_cliente" />
@@ -33,7 +32,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="12dp"
-        android:contentDescription="TODO"
         app:layout_constraintEnd_toEndOf="@+id/imageViewLogo"
         app:layout_constraintTop_toBottomOf="@+id/imageViewLogo"
         app:srcCompat="@drawable/menu_contato" />
@@ -43,7 +41,6 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="13dp"
-        android:contentDescription="TODO"
         app:layout_constraintStart_toStartOf="@+id/clienteId"
         app:layout_constraintTop_toBottomOf="@+id/clienteId"
         app:srcCompat="@drawable/menu_empresa" />
@@ -53,8 +50,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="13dp"
-        android:contentDescription="TODO"
         app:layout_constraintStart_toStartOf="@+id/contatoId"
         app:layout_constraintTop_toBottomOf="@+id/contatoId"
         app:srcCompat="@drawable/menu_servico" />
+
 </android.support.constraint.ConstraintLayout>

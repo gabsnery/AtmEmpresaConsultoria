@@ -1,2 +1,6 @@
-# APP-5-Institucional
-APP de número 5 criado acompanhando o Curso de Desenvolvimento Android do professor Jamilton Damasceno na plataforma Udemy
+# AtmEmpresaConsultoria
+Seção: 9
+Activities e Navegação
+Projeto criado acompanhando o curso "Curso de Desenvolvimento Android - Aprenda a criar 15 apps" na plataforma Udemy com o instrutor 
+Jamilton Damasceno.
+

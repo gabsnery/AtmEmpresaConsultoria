@@ -11,31 +11,29 @@
         android:id="@+id/textView13"
         android:layout_width="288dp"
         android:layout_height="21dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="192dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="10dp"
         android:text="Celular: (11) 99999-2222"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
     <TextView
         android:id="@+id/textView12"
         android:layout_width="288dp"
         android:layout_height="21dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="152dp"
+        android:layout_marginTop="60dp"
         android:text="E-mail: consultoria@atm.com.br"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
 
     <ImageView
         android:id="@+id/imageView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_width="118dp"
+        android:layout_height="115dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="70dp"
         android:src="@drawable/detalhe_contato"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -44,22 +42,20 @@
         android:id="@+id/textView10"
         android:layout_width="107dp"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="136dp"
-        android:layout_marginStart="136dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="80dp"
         android:text="@string/textoContato"
         android:textAppearance="@android:style/TextAppearance.Large"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toEndOf="@+id/imageView6"
+        app:layout_constraintTop_toTopOf="@+id/imageView6" />
 
     <TextView
         android:id="@+id/textView11"
         android:layout_width="288dp"
         android:layout_height="21dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="220dp"
+        android:layout_marginTop="10dp"
         android:text="Telefone: (11) 3333-2222"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintStart_toStartOf="@+id/imageView6"
+        app:layout_constraintTop_toBottomOf="@+id/textView13" />
 </android.support.constraint.ConstraintLayout>
